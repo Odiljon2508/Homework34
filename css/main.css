@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Open Sans", serif;
+}
+
+nav {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 20px 0px;
+}
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .container .nav_info {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+nav .container .nav_info .links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+}
+nav .container .nav_info .links a {
+  text-decoration: none;
+  font-size: 19px;
+  color: black;
+}
+nav .container .nav_info button {
+  padding: 10px 26px;
+  color: white;
+  background-color: #00BAFC;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+nav .container .nav_info button:hover {
+  background-color: green;
+  color: red;
+}
+
+.hero {
+  padding: 100px 0px;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .container .hero_info {
+  width: 520px;
+}
+.hero .container .hero_info h1,
+.hero .container .hero_info p {
+  margin-bottom: 20px;
+}
+.hero .container .hero_info p {
+  font-size: 18px;
+}
+.hero .container .hero_info button {
+  padding: 10px 26px;
+  color: white;
+  background-color: #00BAFC;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.hero .container .hero_info button:hover {
+  background-color: green;
+  color: red;
+}
+
+.s_one {
+  padding: 100px 0px;
+}
+.s_one .container {
+  text-align: center;
+}
+.s_one .container .one_info {
+  width: 650px;
+  margin: auto;
+  text-align: center;
+}
+.s_one .container .one_info h1,
+.s_one .container .one_info p {
+  margin-bottom: 20px;
+}
+.s_one .container .one_info p {
+  font-size: 15px;
+}
+.s_one .container .one_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-bottom: 35px;
+}
+.s_one .container .one_cards .card {
+  border-radius: 6px;
+  width: 300px;
+  height: 280px;
+  padding: 24px 0px 0px 0px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1019607843);
+}
+.s_one .container .one_cards .card:hover {
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+  transform: scale(1.1);
+}
+.s_one .container .but {
+  width: 420px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.s_one .container .but button {
+  font-size: 20px;
+  padding: 10px 26px;
+  color: white;
+  background-color: #00BAFC;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.s_one .container .but button:hover {
+  background-color: green;
+  color: red;
+}
+.s_one .container .but ul {
+  list-style: none;
+}
+.s_one .container .but ul a {
+  color: #00BAFC;
+  font-weight: 400;
+  text-align: center;
+}
+
+.s_two {
+  padding: 100px 0px;
+}
+.s_two .container {
+  text-align: center;
+}
+.s_two .container .two_info {
+  width: 650px;
+  margin: auto;
+  text-align: center;
+}
+.s_two .container .two_info h1,
+.s_two .container .two_info p {
+  margin-bottom: 20px;
+}
+.s_two .container .two_info p {
+  font-size: 15px;
+}
+.s_two .container .two_boxs .box {
+  margin: auto;
+  width: 800px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.s_two .container .two_boxs .box img {
+  width: 100%;
+}
+.s_two .container .two_boxs .box .box_info {
+  width: 500px;
+}
+.s_two .container .two_boxs .box .box_info h {
+  font-size: 20px;
+}
+.s_two .container .two_boxs .box .box_info p {
+  font-size: 14px;
+}
+.s_two .container button {
+  font-size: 20px;
+  padding: 10px 26px;
+  color: white;
+  background-color: #00BAFC;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.s_two .container button:hover {
+  background-color: green;
+  color: red;
+}
+
+.footer_one {
+  padding: 80px 0px;
+  background-color: #00BAFC;
+  color: #FFFFFF;
+}
+.footer_one .container {
+  text-align: center;
+}
+.footer_one .container .fone_info {
+  width: 650px;
+  margin: auto;
+  text-align: center;
+}
+.footer_one .container .fone_info h1,
+.footer_one .container .fone_info p {
+  margin-bottom: 20px;
+}
+.footer_one .container .fone_info p {
+  font-size: 15px;
+}
+.footer_one .container form {
+  margin: auto;
+  padding: 30px 46px;
+  width: 360px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.footer_one .container form input {
+  text-align: left;
+  padding: 19px 56px;
+  background-color: #F3F3F3;
+  border-radius: 6px;
+  border: none;
+  color: #000000;
+}
+.footer_one .container form select {
+  padding: 18px 95px;
+  background-color: #F3F3F3;
+  border-radius: 6px;
+  border: none !important;
+  color: #000000;
+}
+.footer_one .container form button {
+  font-size: 20px;
+  padding: 10px 26px;
+  color: white;
+  background-color: #00BAFC;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin: auto;
+}
+.footer_one .container form button:hover {
+  background-color: green;
+  color: red;
+}
+
+.footer_two {
+  background-color: #191919;
+  padding: 80px 0px;
+  color: #FFFFFF;
+}
+.footer_two .container {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+.footer_two .container .two_info1 {
+  width: 320px;
+}
+.footer_two .container .two_info1 h2 {
+  margin-bottom: 16px;
+}
+.footer_two .container .two_info2 h2 {
+  margin-bottom: 8px;
+}
+.footer_two .container .two_info2 .links {
+  gap: 30px;
+  align-items: center;
+  list-style: none;
+}
+.footer_two .container .two_info2 .links a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+.footer_two .container .two_info3 h2 {
+  margin-bottom: 19px;
+}
+.footer_two .container .two_info3 p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
